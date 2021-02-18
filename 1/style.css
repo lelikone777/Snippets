@@ -1,32 +1,31 @@
 body {
-    position: relative;
+  position: relative;
 }
 
 .menu {
-    display: none;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(131, 29, 29);
-    margin: auto;
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(131, 29, 29);
+  margin: auto;
 }
 
 .open {
-    display: block;
-    animation: backInRight;
-    animation-duration: 2s;
+  display: block;
+  animation: backInRight;
+  animation-duration: 2s;
 }
 
 .close {
-    animation: backOutRight;
-    animation-duration: 2s;
+  animation: backOutRight;
+  animation-duration: 2s;
 }
 
 .button {
-    background-color: rgb(197, 28, 28);
-    position: absolute;
+  background-color: rgb(197, 28, 28);
+  position: absolute;
 }
 
 .active {
-    background-color: rgb(56, 151, 47);
+  background-color: rgb(56, 151, 47);
 }
-
